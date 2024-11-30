@@ -1,4 +1,4 @@
 class ApplicationMailbox < ActionMailbox::Base
   # routing /something/i => :somewhere
-  routing :all :audio
+  routing all: :audio
 end
